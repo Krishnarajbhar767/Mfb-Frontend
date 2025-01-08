@@ -94,7 +94,7 @@ function AdminDashboard() {
             >
               Welcome to Media Fleetblue Course Platform - Teacher
             </h1> */}
-
+    
             <Outlet />
 
             {/* <footer className="w-full bg-gray-800 text-white text-center py-1 px-10  rounded-lg ">

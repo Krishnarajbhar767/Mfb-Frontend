@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+        font-family: "Poppins", serif;
+        
+}
+
+ table {
+  width: 100%;
+  text-align: center;
+  border-collapse: separate; /* Don't collapse */
+  border-spacing: 0;
+  color: #ff00003b;
+}
+
+ table th {
+  /* Apply both top and bottom borders to the <th> */
+  /* border-top: 1px solid; */
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+
+ table th:first-child{
+  /* Apply a left border on the first <td> or <th> in a row */
+  border-left: 1px solid;
+}
+
+ table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #edecec;
+}

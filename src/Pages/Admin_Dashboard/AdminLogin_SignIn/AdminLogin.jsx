@@ -14,7 +14,7 @@ function AdminLogin() {
 
   return (
     <div className="w-full bg-black text-white ">AdminLogin
-
+    login Page
       {/* <button onClick={onLogin} >setIsAdmin True</button> */}
     </div>
   )

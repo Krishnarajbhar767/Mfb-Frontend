@@ -13,9 +13,6 @@ import StudentLogin from "./Pages/Student_Dashboard/Components/StudentLogin";
 import TeacherLogin from "./Pages/Teacher_Dashboard/Components/TeacherLogin";
 import TeacherRoute, { TeacherRoutesConfig } from "./Routes/TeacherRoute";
 
-
-
-
 function App() {
 
   const { authCheck, setAuthCheck, isAdmin, setIsAdmin } = useParentContextValue();
